@@ -5,6 +5,7 @@
 - typescript
 - zustand
 - zod
+- react router
 
 # emotes
 
