@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { REGEX } from "../regex/regex";
 
-export const nameSchema = z
+export const name = z
   .string()
   .min(1, { message: "Min 1 dígito" })
   .max(30, { message: "Max 30 dígitos" })
