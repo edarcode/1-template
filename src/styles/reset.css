@@ -1,22 +1,22 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-	margin: 0;
-	min-width: 0;
+  margin: 0;
+  min-width: 0;
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
-	min-height: 100dvh;
-	font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+  font-size: 1.6rem;
 }
 
 img,
@@ -24,15 +24,15 @@ picture,
 video,
 canvas,
 svg {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }
 
 p,
@@ -43,9 +43,9 @@ h3,
 h4,
 h5,
 h6 {
-	overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 p {
-	text-wrap: pretty;
+  text-wrap: pretty;
 }
