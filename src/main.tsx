@@ -4,5 +4,5 @@ import "./global.css";
 import { router } from "./router/router";
 
 ReactDOM.createRoot(document.querySelector("#root")!).render(
-  <RouterProvider router={router} />
+	<RouterProvider router={router} />
 );
