@@ -6,6 +6,8 @@
 - zustand
 - zod
 - react router
+- eslint
+- prettier
 
 # emotes
 
