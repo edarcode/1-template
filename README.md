@@ -1,3 +1,7 @@
+# Arquitectura
+
+- Screaming Architecture
+
 # herramientas
 
 - vite
