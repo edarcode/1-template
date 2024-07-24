@@ -1,10 +1,13 @@
 :root {
-	--c-black: #121212;
-	--c-red: #cc241d;
-	--c-green: #98971a;
-	--c-yellow: #d79921;
-	--c-blue: #458588;
-	--c-gray: #928374;
+	--c-black: #242424;
+	--c-darkblack: #121212;
+	--c-lightblack: #333;
+	--c-red: #cd231d;
+	--c-green: #8c9900;
+	--c-yellow: #ffd500;
+	--c-blue: #0066cc;
+	--c-gray: #6e6e73;
+	--c-darkgray: #444;
 	--c-lightgray: #cfcfcf;
-	--c-white: #fffff0;
+	--c-white: hsl(60, 100%, 97%);
 }

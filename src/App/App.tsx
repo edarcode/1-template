@@ -1,21 +1,16 @@
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 import css from "./css.module.css";
-import { PATH } from "./router";
 
 export default function App() {
 	return (
 		<div className={css.app}>
-			<header>
-				<nav>
-					<Link to={PATH.Project}>Proyectos</Link>
-					<Link to={PATH.AboutMe}>Sobre mi</Link>
-				</nav>
-			</header>
-			<main>
+			<Header className={css.header} />
+			<main className={css.main}>
 				<Outlet />
 			</main>
-			<Footer />
+			<Footer className={css.footer} />
 		</div>
 	);
 }
